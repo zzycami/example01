@@ -1,0 +1,2 @@
+<!--pages/detail/detail.wxml-->
+<image src="{{url}}" mode="widthFix"></image>

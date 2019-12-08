@@ -1,0 +1,8 @@
+<view id="navigation">
+  <button bindtap="onPrevButtonClicked" type="primary" disabled="{{currentPage == 1}}" >上一页</button>
+  <button bindtap="onNextButtonClicked" type="primary" >下一页</button>
+</view>
+
+<view class="container" wx:for="{{array}}">
+  <image data-address="{{item.url}}" bindtap="jumpToDetail" src="{{item.url}}" mode="aspectFill"></image>
+</view>
